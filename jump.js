@@ -1,0 +1,31 @@
+$(document).ready(function() {
+$("#oneway").show();
+$("#roundtrip").hide();
+$("#all").hide();
+$("#allround").hide();
+
+$("#button1").click(function(){		
+	$("#oneway").show();
+	$("#roundtrip").hide();
+	$("#all").hide();
+	$("#allround").hide();
+});
+$("#button2").click(function(){
+	$("#roundtrip").show();
+	$("#oneway").hide();
+	$("#all").hide();
+	$("#allround").hide();
+});
+$("#button3").click(function(){
+	$("#oneway").hide();
+	$("#roundtrip").hide();
+	$("#all").show();
+	$("#allround").hide();
+});
+$("#button4").click(function(){
+	$("#oneway").hide();
+	$("#roundtrip").hide();
+	$("#all").hide();
+	$("#allround").show();
+});
+});
